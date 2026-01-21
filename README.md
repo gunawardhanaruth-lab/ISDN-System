@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ISDN System
 
-# Run and deploy your AI Studio app
+## Quick Start
 
-This contains everything you need to run your app locally.
+### Prerequisites
+- Node.js installed
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+### Download & Run
 
-## Run Locally
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/gunawardhanaruth-lab/ISDN-System.git
+   cd ISDN-System
+   ```
 
-**Prerequisites:**  Node.js
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+4. **Run the backend** (in a new terminal)
+   ```bash
+   cd server
+   npm install
+   npm start
+   ```
+
+5. **Open in browser**
+   - Frontend: `http://localhost:5173`
+   - Backend API: `http://localhost:3000`
+
+### Environment Setup
+Create `.env.local` file with:
+```
+VITE_GEMINI_API_KEY=your_api_key
+```
