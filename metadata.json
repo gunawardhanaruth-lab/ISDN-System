@@ -1,0 +1,8 @@
+
+{
+  "name": "IslandLink ISDN System",
+  "description": "A centralized sales and distribution management system for IslandLink (ISDN) featuring real-time inventory, order tracking, and automated billing across multiple regional distribution centers.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
